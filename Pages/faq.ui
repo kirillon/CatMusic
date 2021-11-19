@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>296</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FAQ</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../img/channels4_profile.jpg</normaloff>../img/channels4_profile.jpg</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>-30</y>
+     <width>461</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+
+
+
+background:#CBCBCB;
+border-width:2px;
+border-style: solid;
+border-color: #115cf2;
+
+
+
+}
+
+QPushButton:hover{
+background:#bababa;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;
+&lt;head/&gt;&lt;body&gt;
+&lt;center&gt;&lt;b&gt;&lt;p style = &quot;font-family: sans-serif;font-size: 14px;&quot;&gt;Welcome to the FAQ section.Here you will find answers to all questions.&lt;/p&gt;&lt;/b&gt;&lt;/center&gt;
+&lt;center&gt;&lt;p style = &quot;font-family: sans-serif;font-size: 12px;&quot;&gt;How do I add music?&lt;/p&gt;&lt;/center&gt;
+&lt;p style = &quot;font-family: sans-serif;font-size: 11px;&quot;&gt; In order to add music go to the &amp;quot;Files&amp;quot; menu and select &amp;quot;Add file&amp;quot;.&lt;/p&gt;
+&lt;center&gt;&lt;p style = &quot;font-family: sans-serif;font-size: 12px;&quot;&gt;How do I create a playlist?&lt;/p&gt;&lt;/center&gt;
+&lt;p style = &quot;font-family: sans-serif;font-size: 11px;&quot;&gt; In order to create a playlist, you need to go to the &amp;quot;Files&amp;quot; menu and select &amp;quot;Add Playlist&amp;quot; or go to the &amp;quot;Playlist&amp;quot; section and right-click on the left table and select &amp;quot;New playlist&amp;quot;.&lt;/p&gt;
+&lt;center&gt;&lt;p style = &quot;font-family: sans-serif;font-size: 12px;&quot;&gt;How do I add music to a playlist? &lt;/p&gt;&lt;/center&gt;
+&lt;p style = &quot;font-family: sans-serif;font-size: 11px;&quot;&gt;In order to add a song to the playlist, go to the &amp;quot;Music&amp;quot; section, select the desired song, right-click on it, click on &amp;quot;Add to playlist&amp;quot; and select the desired playlist.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>260</y>
+     <width>75</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>7</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>75</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+
+
+
+background:#CBCBCB;
+border-width:2px;
+border-style: solid;
+border-color: #115cf2;
+
+
+
+}
+
+QPushButton:hover{
+background:#bababa;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

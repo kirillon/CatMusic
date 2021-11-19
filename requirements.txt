@@ -1,0 +1,11 @@
+about==5.2
+audiosegment==0.23.0
+MAD==0.2.2
+mutagen==1.45.1
+numpy==1.21.4
+pydub==0.25.1
+pygame==2.0.1
+PyQt5==5.15.6
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.9.0
+webrtcvad==2.0.10
